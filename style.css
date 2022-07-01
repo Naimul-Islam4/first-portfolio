@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Hedding Design Start */
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+
+/* Color Star */
+.orange {
+    color: orange;
+}
+
+p {
+    color: rgb(97, 88, 88);
+}
+
+
+
+/* Button Design Start  */
+.button {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(208, 152, 111), coral);
+    padding: 10px 36px;
+    border-radius: 5px;
+}
+
+
+
+/* Background Add */
+.top-bg {
+    background-image: url(photos/images/top-bg.png);
+    background-repeat: no-repeat;
+}
+
+.middle-bg {
+    background-image: url(photos/images/middle-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1145px 180px;
+}
+
+.bottom-bg {
+    background-image: url(photos/images/bottom-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 220px;
+}
+
+
+/* First and Second section */
+.flexible {
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 160px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 0 65px;
+}
+
+.half-width img {
+    width: 103%;
+}
+
+
+
+/* Last Section */
+.full-stac {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 26px;
+    padding-left: 20px;
+    padding-right: 2px;
+    border-left: 5px solid coral;
+}
+
+.baby-web {
+    width: 50%;
+    margin-right: 38px;
+    margin-left: 32px;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 6px;
+    padding-bottom: 90px;
+    margin-bottom: 20px;
+}
+
+.footer-design {
+    text-align: center;
+}
